@@ -49,7 +49,7 @@ docker run -it --name $INSTALLER_NAME \
 
 ```shell
 /install/$INSTALLER_NAME/xsetup -b AuthTokenGen
-/install/$INSTALLER_NAME/xsetup --agree XilinxEULA,3rdPartyEULA,WebTalkTerms --batch Install --config install_config.txt
+/install/$INSTALLER_NAME/xsetup --agree XilinxEULA,3rdPartyEULA --batch Install --config install_config.txt
 exit
 ```
 
